@@ -54,18 +54,14 @@ footer a:hover {
   position: relative;
 }
 
-.form {
-  background-color: rgb(211, 195, 169, 0.3);
-  box-shadow: var(--box-shadow);
-  padding: 20px;
-}
 .form-component {
-  margin: 50px;
+  margin: 30px;
 }
 
 .rsvp {
-  font-family: var(--secondary-font);
-  margin: 40px;
+  background-color: rgb(211, 195, 169, 0.3);
+  box-shadow: var(--box-shadow);
+  padding: 40px;
 }
 
 @media (max-width: 992px) {
