@@ -1,20 +1,47 @@
 :root {
   --primary-color: #edab42;
   --secondary-color: #351e06;
+  --heading-font: "Playfair Display", serif;
+  --secondary-font: "Open Sans", sans-serif;
+  --box-shadow: 5px 10px 10px 0px rgba(0, 0, 0, 0.2);
 }
 
 body {
-  font-family: "Playfair Display", serif;
   text-align: center;
 }
 
 h1 {
   font-size: 50px;
+  font-family: var(--heading-font);
   color: var(--secondary-color);
 }
 
 h2 {
   color: var(--secondary-color);
+}
+
+p {
+  font-family: var(--secondary-font);
+  margin: 40px;
+  text-align: left;
+}
+
+footer {
+  color: #351e06;
+  font-size: 40px;
+  margin: 50px;
+  line-height: 1.5;
+}
+
+footer a {
+  font-size: 20px;
+  text-decoration: none;
+  color: #351e06;
+}
+
+footer a:hover {
+  color: #351e06;
+  text-decoration: underline;
 }
 
 .hero-image {
@@ -25,6 +52,20 @@ h2 {
   background-repeat: no-repeat;
   background-size: cover;
   position: relative;
+}
+
+.form {
+  background-color: rgb(211, 195, 169, 0.3);
+  box-shadow: var(--box-shadow);
+  padding: 20px;
+}
+.form-component {
+  margin: 50px;
+}
+
+.rsvp {
+  font-family: var(--secondary-font);
+  margin: 40px;
 }
 
 @media (max-width: 992px) {
