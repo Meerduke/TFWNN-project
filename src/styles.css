@@ -26,6 +26,10 @@ p {
   text-align: center;
 }
 
+video {
+  border: none;
+}
+
 footer {
   color: #351e06;
   font-size: 40px;
@@ -52,6 +56,10 @@ footer a:hover {
   font-size: 40px;
 }
 
+.fa-instagram-square {
+  font-size: 40px;
+}
+
 .hero-image {
   background: url("/images/background.png");
   padding: 150px;
@@ -63,7 +71,8 @@ footer a:hover {
 }
 
 .form-component {
-  margin: 30px;
+  margin: 30px auto;
+  max-width: 900px;
 }
 
 .rsvp {
