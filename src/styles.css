@@ -84,10 +84,6 @@ footer a:hover {
   text-decoration: underline;
 }
 
-video {
-  height: 550px;
-}
-
 .btn-main {
   transition: all 150ms ease-in-out;
   color: var(--tertiary-color);
@@ -109,8 +105,8 @@ video {
 }
 
 .content-component {
-  margin: 50px auto;
-  max-width: 600px;
+  margin: 10px auto;
+  max-width: 800px;
   padding: 50px;
   text-align: justify;
 }
@@ -122,7 +118,8 @@ video {
 .rsvp {
   padding: 40px;
   max-width: 600px;
-  margin-top: 230px;
+  text-align: justify;
+  margin: 0 auto;
 }
 
 .contact-icon {
@@ -137,6 +134,10 @@ video {
 
   footer {
     margin: 60px 0;
+  }
+
+  nav ul {
+    margin: 0 auto;
   }
 
   .form-component {
