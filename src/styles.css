@@ -56,16 +56,13 @@ nav li.active a {
 
 p {
   margin: 40px;
+  color: var(--tertiary-color);
 }
 
 img {
   display: block;
   margin: 50px auto;
   width: 100%;
-}
-
-video {
-  border: none;
 }
 
 footer {
@@ -87,9 +84,13 @@ footer a:hover {
   text-decoration: underline;
 }
 
+video {
+  height: 550px;
+}
+
 .btn-main {
   transition: all 150ms ease-in-out;
-  color: #536162;
+  color: var(--tertiary-color);
 }
 
 .btn-main:hover {
@@ -109,27 +110,18 @@ footer a:hover {
 
 .content-component {
   margin: 50px auto;
-  max-width: 800px;
-}
-
-.secondary-component {
-  background: var(--secondary-color);
-  color: var(--primary-color);
+  max-width: 600px;
+  padding: 50px;
+  text-align: justify;
 }
 
 .trailer {
-  background: var(--background-color);
-  border: var(--primary-color);
-  padding: 50px;
   text-align: center;
 }
 
 .rsvp {
-  background: var(--background-color);
-  box-shadow: var(--box-shadow);
-  padding: 40px;
-  max-width: 800px;
-  margin: 0 auto;
+  padding: 30px;
+  max-width: 600px;
 }
 
 .contact-icon {
