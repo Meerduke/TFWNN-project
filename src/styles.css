@@ -119,7 +119,15 @@ footer a:hover {
 .rsvp {
   padding: 40px;
   max-width: 600px;
-  text-align: justify;
+  text-align: center;
+  margin: 0 auto;
+}
+
+input[type="text"],
+input[type="email"],
+textarea,
+fieldset {
+  width: 300px;
   margin: 0 auto;
 }
 
