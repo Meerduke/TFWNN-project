@@ -34,6 +34,8 @@ nav h3 {
   font-size: 16px;
   margin: 18px 0 10px 20px;
   color: var(--tertiary-color);
+  font-family: "Century Gothic", CenturyGothic, AppleGothic, sans-serif;
+  text-transform: lowercase;
 }
 
 nav a {
