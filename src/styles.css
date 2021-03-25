@@ -27,12 +27,11 @@ h2 {
 
 nav {
   background-color: var(--secondary-color);
-  border-bottom: 1px solid var(--tertiary-color);
 }
 
 nav h3 {
   font-size: 16px;
-  margin: 18px 0 10px 20px;
+  margin: 20px 0 10px 20px;
   color: var(--tertiary-color);
   font-family: "Century Gothic", CenturyGothic, AppleGothic, sans-serif;
   text-transform: lowercase;
@@ -40,14 +39,11 @@ nav h3 {
 
 nav a {
   text-decoration: none;
-  font-size: 15px;
   margin: 10px;
 }
 
 nav ul {
-  padding: 0;
   margin: 0;
-  font-size: 15px;
 }
 
 nav li {
@@ -61,7 +57,6 @@ nav li.active a {
 }
 
 p {
-  margin: 40px;
   color: var(--tertiary-color);
 }
 
@@ -73,6 +68,14 @@ img {
 
 video {
   height: 400px;
+}
+
+input[type="text"],
+input[type="email"],
+textarea,
+fieldset {
+  width: 200px;
+  margin: 0 auto;
 }
 
 footer {
@@ -87,10 +90,11 @@ footer a {
   font-size: 20px;
   text-decoration: none;
   color: var(--primary-color);
+  transition: all 150ms ease-in-out;
 }
 
 footer a:hover {
-  color: var(--secondary-color);
+  color: var(--primary-color);
   text-decoration: underline;
 }
 
@@ -103,17 +107,6 @@ footer a:hover {
   color: var(--primary-color);
 }
 
-.hero-image {
-  background: url("/images/background.png");
-  padding: 150px;
-  height: 400px;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  position: relative;
-  text-align: center;
-}
-
 .content-component {
   margin: 10px auto;
   max-width: 800px;
@@ -124,21 +117,14 @@ footer a:hover {
 .trailer {
   text-align: center;
   max-width: 800px;
+  margin: 0 auto;
 }
 
 .rsvp {
-  padding: 40px;
+  padding: 30px;
   max-width: 600px;
   text-align: center;
-  margin: 0 auto;
-}
-
-input[type="text"],
-input[type="email"],
-textarea,
-fieldset {
-  width: 300px;
-  margin: 0 auto;
+  margin: 100px auto;
 }
 
 .contact-icon {
@@ -147,31 +133,45 @@ fieldset {
 }
 
 @media (max-width: 992px) {
-  h1 {
-    font-size: 35px;
+  h2 {
+    font-size: 20px;
   }
 
-  footer {
-    margin: 60px 0;
+  video {
+    height: 300px;
   }
 
   nav ul {
     margin: 0 auto;
-    font-size: 10px;
-  }
-
-  .form-component {
-    margin: 0;
   }
 }
 
-@media (max-width: 733px) {
-  h1 {
-    font-size: 20px;
+@media (max-width: 576px) {
+  img {
+    margin: 40px auto;
   }
-}
-@media (max-width: 320px) {
-  .hero-image {
-    padding: 120px;
+
+  video {
+    height: 150px;
+  }
+
+  nav ul {
+    padding: 0;
+    display: flex;
+    justify-content: space-between;
+  }
+
+  nav a {
+    margin: 0 auto;
+  }
+
+  .content-component {
+    margin: 0 auto;
+    padding: 30px;
+    text-align: center;
+  }
+
+  .rsvp {
+    max-width: 300px;
   }
 }
