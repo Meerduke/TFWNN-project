@@ -1,7 +1,7 @@
 document.querySelector("form").addEventListener("submit", handleSubmit);
 
-const handleSubmit = (e) => {
-  e.preventDefault()
+const handleSubmit = (event) => {
+  event.preventDefault()
   let myForm = document.getElementById('RSVP');
   let formData = new FormData(myForm)
   fetch('/', {
@@ -11,3 +11,5 @@ const handleSubmit = (e) => {
   }).then(() => console.log('Form successfully submitted')).catch((error) =>
     alert(error))
 }
+
+document.querySelectorAll("input").autofocus=false;
