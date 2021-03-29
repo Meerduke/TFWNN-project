@@ -9,7 +9,9 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
     <link rel="stylesheet" href="/src/styles.css">
-   
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-JEW9xMcG8R+pH31jmWH6WWP0WintQrMb4s7ZOdauHnUtxwoG2vI5DkLtS3qm9Ekf"
+    crossorigin="anonymous"></script>
     <title>About The Film With No Name</title>
 </head>
 <body>
@@ -57,92 +59,76 @@
 
     <div class="container trailer">
         <h2 class="mb-3">Trailer</h2>
-        <video src="/images/tfwnn-trailer.mp4" type="video/mp4" controls class="border border-secondary"></video>
+        <video src="/images/tfwnn-trailer.mp4" type="video/mp4" controls></video>
     </div>
 
     <div class="container">
         <h2 class="text-center m-5">Gallery</h2>
     </div>
-   
-    <div class="slideshow-container">
-        <div class="mySlides fade">
-            <img src="/images/gallery/ANTON1.jpg" style="width:100%" />
+
+    <div id="carouselExampleFade" class="carousel slide carousel-fade m-5" data-bs-interval="false">
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img src="/images/gallery/ANTON1.jpg" class="d-block img-fluid" alt="...">
+            </div>
+            <div class="carousel-item">
+                <img src="/images/gallery/ANTON2.jpg" class="d-block img-fluid" alt="...">
+            </div>
+            <div class="carousel-item">
+                <img src="/images/gallery/LARRY1.jpg" class="d-block img-fluid" alt="...">
+            </div>
+            <div class="carousel-item">
+                <img src="/images/gallery/ANTONPIP1.jpg" class="d-block img-fluid" alt="...">
+            </div>
+            <div class="carousel-item">
+                <img src="/images/gallery/ANTONPIP2.jpg" class="d-block img-fluid" alt="...">
+            </div>
+            <div class="carousel-item">
+                <img src="/images/gallery//PORSCHE1.jpg" class="d-block img-fluid" alt="...">
+            </div>
+            <div class="carousel-item">
+                <img src="/images/gallery/RITCHIE1.jpg" class="d-block img-fluid" alt="...">
+            </div>
+            <div class="carousel-item">
+                <img src="/images/gallery//RITCHIE2.jpg" class="d-block img-fluid" alt="...">
+            </div>
+            <div class="carousel-item">
+                <img src="/images/gallery/WIDE1.jpg" class="d-block img-fluid" alt="...">
+            </div>
+            <div class="carousel-item">
+                <img src="/images/gallery/WIDE3.jpg" class="d-block img-fluid" alt="...">
+            </div>
+            <div class="carousel-item">
+                <img src="/images/gallery/WIDE4.jpg" class="d-block img-fluid" alt="...">
+            </div>
+            <div class="carousel-item">
+                <img src="/images/gallery/WIDE5.jpg" class="d-block img-fluid" alt="...">
+            </div>
+            <div class="carousel-item">
+                <img src="/images/gallery/WIDE7.jpg" class="d-block img-fluid" alt="...">
+            </div>
+            <div class="carousel-item">
+                <img src="/images/gallery/PIP1.jpg" class="d-block img-fluid" alt="...">
+            </div>
+            <div class="carousel-item">
+                <img src="/images/gallery/PIP2.jpg" class="d-block img-fluid" alt="...">
+            </div>
+            <div class="carousel-item">
+                <img src="/images/gallery/T2.jpg" class="d-block img-fluid" alt="...">
+            </div>
+            <div class="carousel-item">
+                <img src="/images/gallery/SKEW1.jpg" class="d-block img-fluid" alt="...">
+            </div>
         </div>
-        <div class="mySlides fade">
-            <img src="/images/gallery/ANTON2.jpg" style="width:100%"/>
-        </div>
-        <div class="mySlides fade">
-            <img src="/images/gallery/LARRY1.jpg" style="width:100%"/>
-        </div>
-        <div class="mySlides fade">
-            <img src="/images/gallery/PIP1.jpg" style="width:100%"/>
-        </div>
-        <div class="mySlides fade">
-            <img src="/images/gallery/PIP2.jpg" style="width:100%"/>
-        </div>
-        <div class="mySlides fade">
-            <img src="/images/gallery/RITCHIE1.jpg" style="width:100%"/>
-        </div>
-        <div class="mySlides fade">
-            <img src="/images/gallery/RITCHIE2.jpg" style="width:100%" />
-        </div>
-        <div class="mySlides fade">
-            <img src="/images/gallery/SKEW1.jpg" style="width:100%" />
-        </div>
-        <div class="mySlides fade">
-            <img src="/images/gallery/PORSCHE1.jpg" style="width:100%" />
-        </div>
-        <div class="mySlides fade">
-            <img src="/images/gallery/WIDE1.jpg" style="width:100%" />
-        </div>
-        <div class="mySlides fade">
-            <img src="/images/gallery/WIDE4.jpg" style="width:100%" />
-        </div>
-        <div class="mySlides fade">
-            <img src="/images/gallery/WIDE5.jpg" style="width:100%" />
-        </div>
-        <div class="mySlides fade">
-            <img src="/images/gallery/WIDE7.jpg" style="width:100%" />
-        </div>
-        <div class="mySlides fade">
-            <img src="/images/gallery/ANTONPIP1.jpg" style="width:100%" />
-        </div>
-        <div class="mySlides fade">
-            <img src="/images/gallery/ANTONPIP2.jpg" style="width:100%" />
-        </div>
-        <div class="mySlides fade">
-            <img src="/images/gallery/WIDE3.jpg" style="width:100%" />
-        </div>
-        <div class="mySlides fade">
-            <img src="/images/gallery/T2.jpg" style="width:100%" />
-        </div>
-        <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
-        <a class="next" onclick="plusSlides(1)">&#10095;</a>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+        </button>
     </div>
-    <br />
-    <div style="text-align:center">
-        <span class="dot" onclick="currentSlide(1)"></span>
-        <span class="dot" onclick="currentSlide(2)"></span>
-        <span class="dot" onclick="currentSlide(3)"></span>
-        <span class="dot" onclick="currentSlide(4)"></span>
-        <span class="dot" onclick="currentSlide(5)"></span>
-        <span class="dot" onclick="currentSlide(6)"></span>
-        <span class="dot" onclick="currentSlide(7)"></span>
-        <span class="dot" onclick="currentSlide(8)"></span>
-        <span class="dot" onclick="currentSlide(9)"></span>
-        <span class="dot" onclick="currentSlide(10)"></span>
-        <span class="dot" onclick="currentSlide(11)"></span>
-        <span class="dot" onclick="currentSlide(12)"></span>
-        <span class="dot" onclick="currentSlide(13)"></span>
-        <span class="dot" onclick="currentSlide(14)"></span>
-        <span class="dot" onclick="currentSlide(15)"></span>
-    </div>
-
-
-
-
-
-
 
     <footer>
         <h2 class="mb-0" id="contact">
