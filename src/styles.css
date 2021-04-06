@@ -15,12 +15,7 @@ body {
   background: var(--secondary-color);
 }
 
-h1 {
-  font-size: 60px;
-  font-family: var(--heading-font);
-  color: var(--secondary-color);
-}
-
+h1,
 h2 {
   font-size: 20px;
 }
