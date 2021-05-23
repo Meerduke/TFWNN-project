@@ -39,6 +39,11 @@ nav h3 {
 nav a {
   text-decoration: none;
   margin: 10px;
+  color: var(--tertiary-color);
+}
+
+nav a:hover {
+  color: var(--tertiary-color);
 }
 
 nav ul {
